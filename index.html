@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmileCare Dental Clinic - Best Dentist in Town</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-tooth"></i>
+                <span>SmileCare</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Your Smile is Our Priority</h1>
+                <p class="slide-up">Professional Dental Care for the Whole Family</p>
+                <button class="btn-primary pulse">Book Appointment</button>
+            </div>
+            <div class="hero-image">
+                <div class="floating-tooth">
+                    <i class="fas fa-tooth tooth-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Teeth Section -->
+    <section class="teeth-section">
+        <div class="container">
+            <h2 class="section-title">Click on Teeth to Learn More</h2>
+            <div class="teeth-container">
+                <div class="tooth clickable" data-info="Whitening">
+                    <i class="fas fa-tooth"></i>
+                    <span class="tooth-label">Whitening</span>
+                </div>
+                <div class="tooth clickable" data-info="Cleaning">
+                    <i class="fas fa-tooth"></i>
+                    <span class="tooth-label">Cleaning</span>
+                </div>
+                <div class="tooth clickable" data-info="Crown">
+                    <i class="fas fa-tooth"></i>
+                    <span class="tooth-label">Crown</span>
+                </div>
+                <div class="tooth clickable" data-info="Implant">
+                    <i class="fas fa-tooth"></i>
+                    <span class="tooth-label">Implant</span>
+                </div>
+                <div class="tooth clickable" data-info="Braces">
+                    <i class="fas fa-tooth"></i>
+                    <span class="tooth-label">Braces</span>
+                </div>
+            </div>
+            <div class="tooth-info-box" id="toothInfo">
+                <h3 id="infoTitle">Select a tooth</h3>
+                <p id="infoText">Click on any tooth above to learn about our services</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-teeth"></i>
+                    </div>
+                    <h3>Teeth Whitening</h3>
+                    <p>Get brighter, whiter teeth in just one visit</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3>Dental Implants</h3>
+                    <p>Permanent solution for missing teeth</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-x-ray"></i>
+                    </div>
+                    <h3>Root Canal</h3>
+                    <p>Pain-free root canal treatment</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-teeth-open"></i>
+                    </div>
+                    <h3>Orthodontics</h3>
+                    <p>Braces and aligners for perfect smile</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3 class="counter" data-target="5000">0</h3>
+                <p>Happy Patients</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="15">0</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="10">0</h3>
+                <p>Expert Doctors</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="50">0</h3>
+                <p>Awards Won</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SmileCare Dental</h3>
+                    <p>Your trusted partner for dental health</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> info@smilecare.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SmileCare Dental. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
